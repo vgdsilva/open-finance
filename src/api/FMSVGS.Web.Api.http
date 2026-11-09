@@ -1,0 +1,6 @@
+@FMSVGS.Web.Api_HostAddress = http://localhost:5141
+
+GET {{FMSVGS.Web.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
