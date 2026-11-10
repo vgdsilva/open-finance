@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- So os atributos do EF Core ([Index] etc.), sem o EF em si: a entidade declara o mapeamento, o Infra.Data o aplica. -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="10.0.14" />
+  </ItemGroup>
+
+</Project>
