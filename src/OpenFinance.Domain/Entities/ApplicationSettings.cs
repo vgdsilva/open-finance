@@ -29,8 +29,7 @@ public partial class ApplicationSettings : EntityControl
     {
         return string.Format("Key: {0}, Value: {1}, UserId: {2}", Key, Value, UserId);
     }
-
-
+    
     [ForeignKey(nameof(UserId))]
     public virtual ApplicationUser ApplicationUserEntity { get; set; }
 

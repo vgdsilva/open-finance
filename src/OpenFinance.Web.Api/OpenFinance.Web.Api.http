@@ -1,0 +1,6 @@
+@OpenFinance.Web.Api_HostAddress = http://localhost:5022
+
+GET {{OpenFinance.Web.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
