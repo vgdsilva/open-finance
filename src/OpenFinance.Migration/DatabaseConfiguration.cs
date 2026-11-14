@@ -16,11 +16,12 @@ public static class DatabaseConfiguration
 
     public static string ObterConnectionString()
     {
-        // appsettings.json < variável de ambiente ConnectionStrings__OpenFinance
+        // appsettings.json < appsettings.Local.json (fora do git, guarda a senha)
+        // < variável de ambiente ConnectionStrings__OpenFinance
         var configuration = new ConfigurationBuilder()
             .SetBasePath(AppContext.BaseDirectory)
             .AddJsonFile("appsettings.json", optional: true)
-            .AddJsonFile(Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json"), optional: true)
+            .AddJsonFile("appsettings.Local.json", optional: true)
             .AddEnvironmentVariables()
             .Build();
 

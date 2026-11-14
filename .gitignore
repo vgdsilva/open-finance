@@ -366,3 +366,6 @@ FodyWeavers.xsd
 deploy/.env
 .env
 !.env.example
+
+# Configuração local com segredos (connection string com senha)
+appsettings.Local.json
