@@ -1,2 +1,10 @@
 <Solution>
+  <Project Path="OpenFinance.Bussiness/OpenFinance.Bussiness.csproj" />
+  <Project Path="OpenFinance.Domain/OpenFinance.Domain.csproj" />
+  <Project Path="OpenFinance.Infra.Data/OpenFinance.Infra.Data.csproj" />
+  <Project Path="OpenFinance.Infra.IoC/OpenFinance.Infra.IoC.csproj" />
+  <Project Path="OpenFinance.Migration/OpenFinance.Migration.csproj" />
+  <Project Path="OpenFinance.Web.Api.Integration/OpenFinance.Web.Api.Integration.csproj" />
+  <Project Path="OpenFinance.Web.Api/OpenFinance.Web.Api.csproj" />
+  <Project Path="OpenFinance.Web/OpenFinance.Web.csproj" />
 </Solution>
